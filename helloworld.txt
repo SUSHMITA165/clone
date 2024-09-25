@@ -1,0 +1,24 @@
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 ~ (cs1)
+$ cd D:
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d
+$ mkdir exp4
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d
+$ cd exp4
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp4
+$ git init
+Initialized empty Git repository in D:/exp4/.git/
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp4 (master)
+$ git clone https://github.com/Nazeera03/Four.git
+Cloning into 'Four'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), 17.02 KiB | 2.13 MiB/s, done.
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp4 (master)
+$

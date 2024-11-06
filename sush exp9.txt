@@ -1,0 +1,172 @@
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 ~ (cs1)
+$ cd D:
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d
+$ mkdir exp9
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d
+$ cd exp9
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9
+$ git init
+Initialized empty Git repository in D:/exp9/.git/
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ nano 9exp.txt
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git add .
+warning: in the working copy of '9exp.txt', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git commit -m "firstcommit"
+[master (root-commit) 5d98371] firstcommit
+ 1 file changed, 3 insertions(+)
+ create mode 100644 9exp.txt
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ nano 9exp.txt
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git add .
+warning: in the working copy of '9exp.txt', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git commit -m "secondcommit"
+[master f9cb73a] secondcommit
+ 1 file changed, 1 insertion(+)
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ nano 9exp.txt
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git add .
+warning: in the working copy of '9exp.txt', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git commit -m "thirdcommit"
+[master e9bac45] thirdcommit
+ 1 file changed, 1 insertion(+)
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ nano 9exp.txt
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git add .
+warning: in the working copy of '9exp.txt', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git commit -m "fourthcommit"
+[master d7da796] fourthcommit
+ 1 file changed, 1 insertion(+)
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ nano 9exp.txt
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git add .
+warning: in the working copy of '9exp.txt', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git commit -m "fifthcommit"
+[master 089fc4b] fifthcommit
+ 1 file changed, 1 insertion(+)
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git log
+commit 089fc4bd5cdd2db96c903b495ba14671eefca6be (HEAD -> master)
+Author: Pankaj209719 <shrvyab56@gmail.com>
+Date:   Wed Nov 6 09:58:52 2024 +0530
+
+    fifthcommit
+
+commit d7da7969841d63743a30730f01b769a9336be6f4
+Author: Pankaj209719 <shrvyab56@gmail.com>
+Date:   Wed Nov 6 09:57:46 2024 +0530
+
+    fourthcommit
+
+commit e9bac45a5c1ed045ce3b81223763b1db0a45d9eb
+Author: Pankaj209719 <shrvyab56@gmail.com>
+Date:   Wed Nov 6 09:56:36 2024 +0530
+
+    thirdcommit
+
+commit f9cb73a223f96f6e395ef9ace0ad3e1f59bf9068
+Author: Pankaj209719 <shrvyab56@gmail.com>
+Date:   Wed Nov 6 09:55:23 2024 +0530
+
+    secondcommit
+
+commit 5d98371fced49503fa95f1d13158f06d9414c060
+Author: Pankaj209719 <shrvyab56@gmail.com>
+Date:   Wed Nov 6 09:52:50 2024 +0530
+
+    firstcommit
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Pankaj209719
+user.email=shrvyab56@gmail.com
+safe.directory=C:/aarya2
+safe.directory=C:/aarya2
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/exp9 (master)
+$ git show 5d98371fced49503fa95f1d13158f06d9414c060
+commit 5d98371fced49503fa95f1d13158f06d9414c060
+Author: Pankaj209719 <shrvyab56@gmail.com>
+Date:   Wed Nov 6 09:52:50 2024 +0530
+
+    firstcommit
+
+diff --git a/9exp.txt b/9exp.txt
+new file mode 100644
+index 0000000..ce07bbf
+--- /dev/null
++++ b/9exp.txt
+@@ -0,0 +1,3 @@
++good morning
++welcome to git lab
++analysing and changing git history
+
